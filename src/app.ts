@@ -1,7 +1,7 @@
 import express, { Application, NextFunction, Request, Response } from "express";
-import { StudentRouter } from "./modules/student/student.routes";
+import { InstructorRouter } from "./app/modules/instructor/instructor.routes";
+import { StudentRouter } from "./app/modules/student/student.routes";
 import cors from "cors";
-import { InstructorRouter } from "./modules/instructor/instructor.routes";
 
 const app: Application = express();
 
